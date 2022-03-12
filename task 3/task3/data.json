@@ -1,0 +1,2 @@
+[{"accnum":1647104846263,"name":"lina","intialBalance":300,"remainigBalance":300,"operation":[{"value":200,"typeofoperation":"withdraw","currentbalance":100},
+    {"value":200,"typeofoperation":"add","currentbalance":300}]}]
