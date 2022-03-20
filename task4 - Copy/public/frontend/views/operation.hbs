@@ -1,0 +1,25 @@
+
+{{>header}}
+{{>nav}}
+<section class="my-5 container">
+    <form method="post">
+        <div class="mb-3" class="form-control">
+            <h3 class="text-capitalize">{{name}}</h3>
+            <br>
+            <label for="type" class="label">Choose Your Opertaion</label>
+            <select name="operationtype" id="type" class="form-control" >
+                <option value="-1" disabled selected > Choose Operation </option>
+                <option value="add"> add </option>
+                <option value="withdraw"> withdraw </option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <input type="number" min="50" max="6000" class="form-control" placeholder="Value of money" name="operationValue" required />
+        </div>
+        <div class="mb-3">
+            <button class="btn btn-primary">DONE</button>
+        </div>
+
+    </form>    
+</section>
+{{>footer}}
